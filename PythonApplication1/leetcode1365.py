@@ -1,4 +1,5 @@
-
+#有多少小于当前数字的数字
+#low O(n**2)
 class Solution:
     def smallerNumbersThanCurrent(self, nums):
         res=[]
@@ -11,7 +12,9 @@ class Solution:
             res.append(sum(n[:nums[j]]))
  
         return res
-'''测试，有多少小于当前数字的数字
+
+
+'''测试
 test=Solution()
 res=test.smallerNumbersThanCurrent([8,1,2,2,3])
 print(res)

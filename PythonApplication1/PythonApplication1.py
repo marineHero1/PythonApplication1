@@ -1,6 +1,6 @@
 import leetcode1365 as l1365 #有多少小于当前数字的数字
-import leetcode88 as l88
-test=l88.Solution2()
-nums1=[1,2,3,0,0,0]
-res=test.merge(nums1,3,[2,5,6],3)
-print(nums1)
+import leetcode88 as l88 #合并两个有序数组
+import leetcode14 as l14 #最长公共前缀
+test=l14.Solution()
+res=test.longestCommonPrefix(["flower","flow","flight"])
+print(res)

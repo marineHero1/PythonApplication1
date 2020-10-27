@@ -1,10 +1,5 @@
 #合并两个有序数组
-'''
-test=l88.Solution()
-nums1=[1,2,3,0,0,0]
-res=test.merge(nums1,3,[2,5,6],3)
-print(nums1)
-'''
+
 #low
 class Solution:
     def merge(self, nums1, m, nums2, n):
@@ -17,10 +12,16 @@ class Solution:
             #对应位置腾出来，直接放入num2对应的元素
             nums1[flag+1]=nums2[i]
             m+=1
-#high
+#high O(n*logn)
 class Solution2:
     def merge(self, nums1, m, nums2, n):
         nums1[:]=sorted(nums1[:m]+nums2[:])
-        
+
+'''测试
+test=l88.Solution()
+nums1=[1,2,3,0,0,0]
+res=test.merge(nums1,3,[2,5,6],3)
+print(nums1)
+'''
 
         
