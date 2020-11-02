@@ -8,6 +8,7 @@ import leetcode859 as lc859 #859. 亲密字符串
 #129.求根到叶子节点数字之和
 #463. 岛屿的周长
 #349. 两个数组的交集
+#61. 旋转链表
 test=lc859.Solution()
 res=test.buddyStrings("ab","ba")
 print(res)
