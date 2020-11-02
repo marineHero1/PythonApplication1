@@ -46,6 +46,9 @@
     <Compile Include="leetcode859.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="leetcode349.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonApplication1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
