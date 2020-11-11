@@ -1,5 +1,6 @@
 #973. 最接近原点的 K 个点
 
+#low
 class Solution(object):
     def kClosest(self, points, K):
         """
@@ -19,6 +20,10 @@ class Solution(object):
             j+=1
         return res
 
+#high
+class Solution2:
+    def kClosest(self, points, K):
+        return sorted(points, key = lambda x:x[0]**2+x[1]**2)[:K]
 
 #test=Solution2()
 #res=test.kClosest([[3,3],[5,-1],[-2,4]],1)
