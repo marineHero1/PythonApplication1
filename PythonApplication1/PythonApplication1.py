@@ -17,6 +17,7 @@ import leetcode122 as lc122 #买卖股票的最佳时机 II
 #1122. 数组的相对排序
 #1030. 距离顺序排列矩阵单元格
 #134. 加油站
+#283. 移动零
 test=lc122.Solution2()
 res=test.maxProfit([7,1,5,3,6,5,7,9,10,12,15,16,18,19,20,4])
 print(res)
