@@ -1,11 +1,6 @@
 #290. 单词规律
 class Solution(object):
     def wordPattern(self, pattern, s):
-        """
-        :type pattern: str
-        :type s: str
-        :rtype: bool
-        """
         lst=s.split(' ')
         if(len(pattern)!=len(lst)):
             return False
